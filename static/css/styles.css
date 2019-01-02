@@ -1,5 +1,17 @@
 table{
+    border-collapse: collapse;
+}
+
+table, th, td {
     border: 1px solid black;
+}
+
+td{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 250%;
 }
 
 h1{
@@ -7,5 +19,5 @@ h1{
 }
 
 .container{
-    background-color: #fedc3d;
+
 }

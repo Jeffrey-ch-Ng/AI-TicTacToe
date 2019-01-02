@@ -1,9 +1,66 @@
 from flask import Flask, render_template
+
 app = Flask(__name__)
+
 
 @app.route("/")
 def index():
     return render_template("TicTacToe.html")
 
+
+@app.route("/A1")
+def a1_click():
+    print("A1")
+    return "nothing"
+
+
+@app.route("/A2")
+def a2_click():
+    print("A2")
+    return "nothing"
+
+
+@app.route("/A3")
+def a3_click():
+    print("A3")
+    return "nothing"
+
+
+@app.route("/B1")
+def b1_click():
+    print("B1")
+    return "nothing"
+
+
+@app.route("/B2")
+def b2_click():
+    print("B2")
+    return "nothing"
+
+
+@app.route("/B3")
+def b3_click():
+    print("B3")
+    return "nothing"
+
+
+@app.route("/C1")
+def c1_click():
+    print("C1")
+    return "nothing"
+
+
+@app.route("/C2")
+def c2_click():
+    print("C2")
+    return "nothing"
+
+
+@app.route("/C3")
+def c3_click():
+    print("C3")
+    return "nothing"
+
+
 if __name__ == "__main__":
-    app.run(debug = True)
+    app.run(debug=True)
