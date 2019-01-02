@@ -14,6 +14,11 @@ td{
     font-size: 250%;
 }
 
+span{
+    visibility: hidden;
+}
+
+
 h1{
 
 }
