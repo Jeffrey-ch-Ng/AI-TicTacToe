@@ -199,7 +199,7 @@ def clickFunction():
 
 @app.route("/")
 def index():
-    return render_template("TicTacToe.py.html",
+    return render_template("TicTacToe.html",
                            A1Text=array[0][0], A2Text=array[0][1], A3Text=array[0][2],
                            B1Text=array[1][0], B2Text=array[1][1], B3Text=array[1][2],
                            C1Text=array[2][0], C2Text=array[2][1], C3Text=array[2][2]
